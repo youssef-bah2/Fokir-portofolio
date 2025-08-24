@@ -31,12 +31,13 @@
     }
 
 .cv-content .cv-img {
+    width: fit-content;
     overflow: hidden;
 }
 
 .cv-content .cv-img .cv-icons
 {
-    width: 105%;
+    width: 100%;
     left: 0;
     bottom: 0;
 }
@@ -102,7 +103,7 @@
     .cv-content .cv-img img
     {
         position: static;
-        box-shadow: -1px 1px 5px 0px;
+        box-shadow: inset 0px 0px 10px 10px;
     }
 
     .feedback .client-box .client-img
@@ -162,6 +163,7 @@
     }
 
 .cv-content .cv-img {
+    width: fit-content;
     overflow: hidden;
 }
 
@@ -218,7 +220,7 @@
     .cv-content .cv-img img
     {
         position: static;
-        box-shadow: -1px 1px 5px 0px;
+        box-shadow: inset 0px 0px 10px 10px;
     }
 
     .feedback .client-box .client-img
@@ -265,6 +267,9 @@
     .mid-45{
         width: 45%;
     }
+    .mid-49{
+        width: 49%;
+    }
     .mid-50{
         width: 50%;
     }
@@ -288,6 +293,7 @@
     }
 
 .cv-content .cv-img {
+    width: fit-content;
     overflow: hidden;
 }
 
@@ -359,7 +365,7 @@
     .cv-content .cv-img img
     {
         position: static;
-        box-shadow: -1px 1px 5px 0px;
+        box-shadow: inset 0px 0px 10px 10px;
     }
     .cv-content .cv-txt .cv-info .info-right ul
     {
@@ -427,11 +433,12 @@
     }
 
 .cv-content .cv-img {
+    width: fit-content;
     overflow: visible;
 }
 
 .cv-content .cv-img .cv-icons {
-    width: 105%;
+    width: 100%;
     left: 13px;
     bottom: -30px;
 }

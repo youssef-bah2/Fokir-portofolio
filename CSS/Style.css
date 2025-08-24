@@ -245,8 +245,6 @@ h2
 }
 
 .cv-content .cv-img {
-    /* overflow: hidden; */
-    width: 95%;
     height: 440px;
     border: 8px solid #555555;
     border-radius: 5px;
